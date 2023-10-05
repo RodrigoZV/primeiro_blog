@@ -1,7 +1,7 @@
-import Image from 'next/image'
+import Header from './componets/header'
 
 export default function Home() {
   return (
-   <div>oi</div>
+    <Header/>
   )
 }
