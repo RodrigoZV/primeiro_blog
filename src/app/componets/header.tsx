@@ -5,7 +5,5 @@ export default function Header(){
         <header>
             <h1>Blog pessoal de Nanatsu No Taizai</h1>
         </header>
-
-        
     )
 }

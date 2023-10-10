@@ -1,7 +1,7 @@
 export default function Post(){
-    <main>
-        <section>
-            <h1>Ban</h1>
-        </section>
-    </main>
+    <section>
+        <h1>
+            Ban,O pecado da Ganância.
+        </h1>
+    </section>
 }
