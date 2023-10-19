@@ -16,7 +16,18 @@ export default function Posts(){
             </h1>
         </div>
 
-        <h2>Habilidades</h2>
+        {power.map((powers) =>
+
+        <div>
+            <h1>Titúlo:{powers.name}</h1>
+            <p>Descrição: {powers.desc}</p>
+        </div>
+
+        
+        )}
+
+
+
 
         
 
