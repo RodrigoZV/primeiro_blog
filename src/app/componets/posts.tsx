@@ -1,13 +1,7 @@
+'use client'
+
 export default function Posts(){
     
-    let power = [
-        {
-            name:"Full Counter",
-            desc:"Full Counter de Meliodas permite que o usuário possa refletir ataques direcionados a ele, apenas ataques mágicos, que utilizam magia, de volta para o inimigo, mas com muito mais poder; portanto, quanto mais forte os poderes do oponente, mais forte o poder refletor do usuário se torna."
-        }
-            
-    ]
-
     return(
     <section>
         <div>
@@ -16,27 +10,28 @@ export default function Posts(){
             </h1>
         </div>
 
-        {power.map((powers) =>
-
         <div>
-            <h1>Titúlo:{powers.name}</h1>
-            <p>Descrição: {powers.desc}</p>
+            <h2>Titúlo:Revenge Counter</h2>
+            <p>Descrição: Meliodas desativa suas habilidades para que ele possa sofrer dano. Depois que Meliodas tomou bastante dano, ele carrega sua lâmina com poder e ataca seu inimigo com ela. Isto é considerado o ataque final de Meliodas e tem uma taxa de sobrevivência média de 0,2%.</p>
         </div>
 
-        
-        )}
+        <div>
+            <h2>titulo:Encantamento: Hellblaze</h2>
+            <p>Descrição:uma habilidade misteriosa exibida por Meliodas que lhe permite gerar chamas negras. A técnica também tem o efeito adicional de anular a regeneração de um imortal, como mostrado quando ele usou contra o Ban.</p>
+        </div>
 
+      
+   
 
+        <div>
+            <input placeholder='Nome do personagem'type="text" />
+            <input placeholder='Nome da Habilidade'type="text" />
+            <textarea placeholder='Descrição da Habilidade'/>
 
-
-        
-
-
-
-        
-
-
-
+            <button>
+                Adicionar
+            </button>
+        </div>
     </section>
     )
  
