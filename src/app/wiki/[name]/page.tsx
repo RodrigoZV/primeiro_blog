@@ -1,14 +1,11 @@
+
+import { characters } from "@/db"
 import { getCharacters } from "../../services"
+import Profile from "../components/profile"
 
 export default function Page() {
-
-  let data = getCharacters().filter((character) => character.name == "Ban")
-  
-  
-  console.log(data)
   return (
     <>
-      <h1>hi</h1>
     </>
   )
 }

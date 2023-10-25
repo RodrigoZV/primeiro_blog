@@ -1,5 +1,7 @@
+'use server'
+
 import { characters } from "../db";
 
-export function getCharacters() {
-    return characters
+export async function getCharacters() {
+    return await characters
 }

@@ -1,0 +1,73 @@
+import { skip } from "node:test";
+
+export interface ICharacter{
+    name:string,
+    skills:{title:string,desc:string}[]
+}
+
+export let characters:ICharacter[] = [
+    {
+        name:"Meliodas",
+        skills:[
+            {
+                title:"",
+                desc:""
+            }
+        ]
+    },
+    {
+        name:"Ban",
+        skills:[
+            {
+                title:"",
+                desc:""
+            }
+        ]
+    },
+    {
+        name:"Escanor",
+        skills:[
+            {
+                title:"",
+                desc:""
+            }
+        ]
+    },
+    {
+        name:"King",
+        skills:[
+            {
+                title:"",
+                desc:""
+            }
+        ]
+    },
+    {
+        name:"Merlin",
+        skills:[
+            {
+                title:"",
+                desc:""
+            }
+        ]
+    },
+    {
+        name:"Diane",
+        skills:[
+            {
+                title:"",
+                desc:""
+
+            }
+        ]
+    },
+    {
+        name:"Gowther",
+        skills:[
+            {
+                title:"",
+                desc:""
+            }
+        ]
+    }
+]
